@@ -7,10 +7,8 @@
 require get_template_directory() . '/inc/pagination.php';
 
 /**
-
-/**
  * Custom pagination.
- */
+*/
 require get_template_directory() . '/admin/options-framework.php';
 
 
@@ -416,6 +414,3 @@ function my_walker_nav_menu_start_el( $item_output, $item, $depth, $args ) {
     }
     return $item_output;
 }
-
-?>
-
